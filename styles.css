@@ -2,6 +2,29 @@ body {
   background-color: lightcyan;
 }
 
-#philip {
+.philip {
   width: 15vh;
+}
+
+nav {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:active {
+  font-size: 2rem;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+}
+
+p::before {
+  content: "Read this: ";
 }
