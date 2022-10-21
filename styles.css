@@ -4,17 +4,25 @@
   padding: 0;
 }
 
+:root {
+  --cyberGrape: #49416d;
+  --lavenderFloral: #a882dd;
+  --middleRed: #e08d79;
+  --honeydew: #e0efde;
+  --magicMint: #b3f2dd;
+}
+
 body {
   background-color: lightcyan;
 }
 
-/* Teaser Styles */
-.teaser {
+header {
   position: relative;
   width: 100%;
   height: 300px;
 }
 
+/* Teaser Styles */
 .teaser-pic {
   position: absolute;
   object-fit: cover;
@@ -37,6 +45,37 @@ h1 {
   font-size: 2rem;
 }
 
+/* Navigation Styles */
+
+nav {
+  position: relative;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: var(--cyberGrape);
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 5px;
+}
+
+nav li a:hover {
+  background-color: var(--cyberGrape);
+  color: var(--honeydew);
+}
+
+/* Picture  */
 .philip {
   width: 15vh;
 }
