@@ -154,6 +154,17 @@ h1 {
   position: relative;
 }
 
+/* cat pictures */
+
+.catpics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Contact */
+
 .contact {
   text-align: center;
 }
