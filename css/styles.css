@@ -1,0 +1,19 @@
+@import "/css/global.css";
+@import "/css/components/clouds.css";
+@import "/css/components/header.css";
+@import "/css/components/headlines.css";
+@import "/css/components/work-private.css";
+
+/* cat pictures */
+.catpics {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+}

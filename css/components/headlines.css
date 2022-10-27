@@ -1,0 +1,20 @@
+.headlines {
+  width: 100vw;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.headline-dev,
+.headline-agile {
+  background-color: var(--cyberGrape);
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.7rem;
+}

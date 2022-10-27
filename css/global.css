@@ -1,0 +1,23 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cyberGrape: #49416d;
+  --lavenderFloral: #a882dd;
+  --middleRed: #e08d79;
+  --honeydew: #e0efde;
+  --magicMint: #b3f2dd;
+  --black: #000;
+  --white: #fff;
+}
+
+body {
+  background: linear-gradient(to bottom, #b7e7fb 0%, #d0f1fd 75%, #ffffff 100%);
+  font-family: sans-serif, Verdana, Tahoma;
+  line-height: 1.8;
+}
