@@ -24,49 +24,120 @@
 .icon {
   max-width: 60px;
   position: absolute;
-  animation: grow 10s ease-in-out infinite;
-}
-
-@keyframes grow {
-  0% {
-    max-width: 60px;
-  }
-  50% {
-    max-width: 68px;
-  }
-  100% {
-    max-width: 60px;
-  }
 }
 
 .icon1 {
-  top: 20%;
-  left: 15%;
+  animation: grow1 10s ease-in-out infinite;
 }
 
 .icon2 {
-  top: 5%;
-  left: 75%;
+  animation: grow2 9s ease-in-out infinite;
 }
 
 .icon3 {
-  top: 80%;
-  left: 65%;
+  animation: grow3 10s ease-in-out infinite;
 }
 
 .icon4 {
-  top: 80%;
-  left: 15%;
+  animation: grow4 8s ease-in-out infinite;
 }
 
 .icon5 {
-  top: 10%;
-  left: 5%;
+  animation: grow5 10s ease-in-out infinite;
 }
 
 .icon6 {
-  top: 70%;
-  left: 80%;
+  animation: grow6 8s ease-in-out infinite;
+}
+
+@keyframes grow1 {
+  0% {
+    top: 10%;
+    left: 5%;
+  }
+  50% {
+    top: 20%;
+    left: 5%;
+  }
+  100% {
+    top: 10%;
+    left: 5%;
+  }
+}
+
+@keyframes grow2 {
+  0% {
+    top: 70%;
+    left: 15%;
+  }
+  50% {
+    top: 85%;
+    left: 13%;
+  }
+  100% {
+    top: 70%;
+    left: 15%;
+  }
+}
+
+@keyframes grow3 {
+  0% {
+    top: 15%;
+    left: 85%;
+  }
+  50% {
+    top: 20%;
+    left: 85%;
+  }
+  100% {
+    top: 15%;
+    left: 85%;
+  }
+}
+
+@keyframes grow4 {
+  0% {
+    top: 5%;
+    left: 20%;
+  }
+  50% {
+    top: 15%;
+    left: 20%;
+  }
+  100% {
+    top: 5%;
+    left: 20%;
+  }
+}
+
+@keyframes grow5 {
+  0% {
+    top: 80%;
+    left: 80%;
+  }
+  50% {
+    top: 90%;
+    left: 80%;
+  }
+  100% {
+    top: 80%;
+    left: 80%;
+  }
+}
+
+@keyframes grow6 {
+  0% {
+    top: 10%;
+    left: 75%;
+  }
+  50% {
+    top: 5%;
+    left: 76%;
+  }
+  100% {
+    top: 10%;
+    left: 75%;
+  }
 }
 
 .work-content,

@@ -8,6 +8,7 @@
 .headline-agile {
   background-color: var(--cyberGrape);
   color: white;
+  padding: 10px;
 }
 
 h1,
