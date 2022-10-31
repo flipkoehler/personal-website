@@ -22,4 +22,10 @@ body {
   background: linear-gradient(to bottom, #b7e7fb 0%, #d0f1fd 75%, #ffffff 100%);
   font-family: sans-serif, Verdana, Tahoma;
   line-height: 1.8;
+  color: var(--black);
+}
+
+.dark {
+  background: black;
+  color: var(--white);
 }
