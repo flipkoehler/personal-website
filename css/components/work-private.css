@@ -22,8 +22,14 @@
 }
 
 .icon {
-  max-width: 60px;
   position: absolute;
+  background-color: #f2f2f2;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .icon1 {
@@ -32,22 +38,27 @@
 
 .icon2 {
   animation: grow2 9s ease-in-out infinite;
+  color: #078fed;
 }
 
 .icon3 {
   animation: grow3 10s ease-in-out infinite;
+  color: #f85521;
 }
 
 .icon4 {
   animation: grow4 8s ease-in-out infinite;
+  color: #f7df1e;
 }
 
 .icon5 {
   animation: grow5 10s ease-in-out infinite;
+  color: #61dbfc;
 }
 
 .icon6 {
   animation: grow6 8s ease-in-out infinite;
+  color: #00769d;
 }
 
 @keyframes grow1 {
