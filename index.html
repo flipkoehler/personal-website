@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Philip Cinematic Universe</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3a91060210.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js" defer></script>
   </head>
-
-  <main>
+  <body>
+  <main class="main" data-js="main">
     <header>
       <nav>
         <ul>
+          <li><button type="button" class="darkmode__button" data-js="darkmodeBtn">Darkmode</button>          </li>
           <li><a href="#work-id">Über mich</a></li>
           <li><a href="#cat-id">Katzenbilder</a></li>
           <li><a href="#contact-id">Kontakt</a></li>
@@ -19,15 +26,15 @@
       </nav>
     </header>
 
-    <section class="cloud" aria-label="two clouds">
-      <div class="cloud__cloud1" aria-label="white cloud number 1">
+    <section class="cloud" aria-hidden="true">
+      <div class="cloud__cloud1" aria-hidden="true">
         <div class="cloud__cloud1--cl1"></div>
         <div class="cloud__cloud1--cl2"></div>
         <div class="cloud__cloud1--cl3"></div>
         <div class="cloud__cloud1--cl4"></div>
       </div>
 
-      <div class="cloud__cloud2" aria-label="white-cloud number 2">
+      <div class="cloud__cloud2" aria-hidden="true">
         <div class="cloud__cloud1--cl1"></div>
         <div class="cloud__cloud1--cl2"></div>
         <div class="cloud__cloud1--cl3"></div>
@@ -36,45 +43,22 @@
     </section>
 
     <section class="headlines">
-      <h1>Herzlich Willkommen im Philip Cinematic Universe.</h1>
-      <h2>
-        Ich bin angehender <span class="headline-dev">Webentwickler</span> und
-        <span class="headline-agile">Agile Coach</span>.
-      </h2>
+      <h1>
+        Way out west there was this fella I wanna tell ya about. <br />
+        Goes by the name of <span class="headline-dev">Philip Köhler</span>.
+      </h1>
+      <h2>- The Stranger (The Big Lebowski)</h2>
     </section>
 
     <section class="work" id="work-id">
       <section class="icon-cloud" aria-label="icon cloud with skills from work">
-        <img
-          src="./images/agil.png"
-          class="icon icon1"
-          alt="agile Icon for work skills"
-        />
-        <img
-          src="./images/css-3.png"
-          class="icon icon2"
-          alt="css Icon for work skills"
-        />
-        <img
-          src="./images/html-5.png"
-          class="icon icon3"
-          alt="html Icon for work skills"
-        />
-        <img
-          src="./images/js.png"
-          class="icon icon4"
-          alt="javascript Icon for work skills"
-        />
-        <img
-          src="./images/React.svg.png"
-          class="icon icon5"
-          alt="React Icon for work skills"
-        />
-        <img
-          src="./images/wordpress.png"
-          class="icon icon6"
-          alt="Wordpress Icon for work skills"
-        />
+        <img src="/images/agile.png" class="icon icon1"></i>
+        <i class="fa-brands fa-css3 icon icon2"></i>
+        <i class="fa-brands fa-html5 icon icon3"></i>
+        <i class="fa-brands fa-square-js icon icon4"></i>
+        <i class="fa-brands fa-react icon icon5"></i>
+        <i class="fa-brands fa-wordpress icon icon6"></i>
+
         <figure class="work-pic">
           <img
             src="./images/philip-koehler.jpg"
@@ -111,36 +95,13 @@
         </p>
       </div>
       <section class="icon-cloud" aria-label="icon cloud with skills from work">
-        <img
-          src="./images/Clapper-icon.png"
-          class="icon icon1"
-          alt="movie Icon for private skills"
-        />
-        <img
-          src="./images/berge.png"
-          class="icon icon2"
-          alt="mountain Icon for private skills"
-        />
-        <img
-          src="./images/fritten.png"
-          class="icon icon3"
-          alt="fries Icon for private skills"
-        />
-        <img
-          src="./images/laufer.png"
-          class="icon icon4"
-          alt="running Icon for private skills"
-        />
-        <img
-          src="./images/musik.png"
-          class="icon icon5"
-          alt="music Icon for private skills"
-        />
-        <img
-          src="./images/read.png"
-          class="icon icon6"
-          alt="read Icon for private skills"
-        />
+        <i class="fa-brands fa-css3 icon icon1"></i>
+        <i class="fa-brands fa-css3 icon icon2"></i>
+        <i class="fa-brands fa-html5 icon icon3"></i>
+        <i class="fa-brands fa-square-js icon icon4"></i>
+        <i class="fa-brands fa-react icon icon5"></i>
+        <i class="fa-brands fa-wordpress icon icon6"></i>
+      
         <figure class="private-pic">
           <img
             src="./images/philipprivat.jpeg"
@@ -177,4 +138,5 @@
       <a href="https://codepen.io/philip3000" target="_blank">Codepen</a>
     </section>
   </main>
+</body>
 </html>
